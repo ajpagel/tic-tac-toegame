@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: black;
+    font-family: sans-serif;
+}
+
+* {  /*everything*/
+    box-sizing: border-box; /*width and height included in element*/
+}
+
+h1 {
+    font-size: 52px;
+    text-transform: uppercase;
+}
+
+.container {
+    padding: 30px;
+    height: 100vh; /*view height*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#gameboard{
+    width: 450px;
+    display: flex; /*use flex box and wrap element once it gets to 450 px it will drop to next 3 boses*/
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.box {
+    height: 150px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    background-color: blanchedalmond;
+}
+
+button {
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: blanchedalmond;
+    color: black;
+    border-color: blanchedalmond;
+    font-size: 18px;
+    transition: 200ms transform;
+
+}
+
+button: hover {
+    cursor: pointer;
+    
+}
