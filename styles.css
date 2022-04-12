@@ -38,6 +38,7 @@ h1 {
     align-items: center;
     color: black;
     background-color: blanchedalmond;
+    font-size: 150px;
 }
 
 button {
@@ -52,6 +53,5 @@ button {
 }
 
 button: hover {
-    cursor: pointer;
-    
+    cursor: pointer;    
 }
