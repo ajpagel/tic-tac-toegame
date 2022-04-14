@@ -90,7 +90,7 @@ const playerHasWon = (currentPlayer) => {
 
 
 restartBtn.addEventListener("click", () => {
-    spaces.forEach((space, index) => {
+    spaces.forEach((spaces, index) => {
       spaces[index] = null;
     });
     boxes.forEach((box) => {
